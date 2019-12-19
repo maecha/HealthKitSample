@@ -9,12 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var stepLabel: UILabel!
+    
+    let healthKit = HealthKit()
 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        healthKit.recentStepsOfDay(completion: { steps, error in
+            DispatchQueue.main.async {
+                self.stepLabel.text = String(steps)
+            }
+        })
+        healthKit.runningWorkOuts({ results, error in
+            print("runningWorkOuts: \(String(describing: results))")
+        })
+    }
 }
-

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>309445817795-e01herhnn0v5mr22b0126j0efaia1ri4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.309445817795-e01herhnn0v5mr22b0126j0efaia1ri4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA-x3omVAm9e_zpUTog2zq49yqXmCt8IfA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>309445817795</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jp.co.herbio.HelthKitSample</string>
+	<key>PROJECT_ID</key>
+	<string>healthkit-sample</string>
+	<key>STORAGE_BUCKET</key>
+	<string>healthkit-sample.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:309445817795:ios:c6d6289395aaf3308df976</string>
+	<key>DATABASE_URL</key>
+	<string>https://healthkit-sample.firebaseio.com</string>
+</dict>
+</plist>
