@@ -19,6 +19,9 @@ Firebaseと連携しようとした片鱗があるけど気にしないでね（
 
 ## メモ
 
+- 公式ドキュメント
+    - https://developer.apple.com/documentation/healthkit
+    - 日本語文献はあまり多くない
 - HealthKitの対応・非対応のハンドル
     - 端末がHealthKitに対応しているかどうか、HealthKitを許可しているかどうかをうまくハンドルする必要ある
 - HealthKitからのデータをいじる際はクロージャーを介して行うことが多い（UIの更新時は注意）
