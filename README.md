@@ -18,3 +18,9 @@ HealthKitのサンプルを作成して、HealthKitを介した健康データ�
 ## HealthKitで取得可能なデータ一覧
 
 - https://qiita.com/sato-shin/items/d7a0099750a0b9eddfd1
+
+## スクリーンショット 
+
+![Main Screen](https://github.com/seiyamaeda/garage/blob/master/screenshots/IMG_1422.jpg "Main Screen")
+
+![Status Screen](https://github.com/seiyamaeda/garage/blob/master/screenshots/IMG_1423.jpg "Status Screen")
