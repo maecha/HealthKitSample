@@ -38,3 +38,8 @@ Firebaseと連携しようとした片鱗があるけど気にしないでね（
 ![Status Screen](https://github.com/seiyamaeda/garage/blob/master/screenshots/IMG_1423.jpg "Status Screen")
 
 ![Authorization Screen](https://github.com/seiyamaeda/garage/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202019-12-19%20at%2015.45.50.png "Authorization Screen")
+
+## HealthKitドキュメント
+
+- https://www.raywenderlich.com/459-healthkit-tutorial-with-swift-getting-started
+- https://qiita.com/sato-shin/items/1fed497d2c2b8042632c
