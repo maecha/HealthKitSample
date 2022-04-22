@@ -2,44 +2,38 @@
 
 ## このプロジェクトについて
 
-HealthKitのサンプルを作成して、HealthKitを介した健康データの取得方法を確認する。<br>
-また、HealthKitの大まかな世界観を理解するためのものである。<br>
-まだ穴だらけなコードだけど許して。<br><br>
-HealthKitを使うのでのテストは実機を推奨。<br><br>
-Firebaseと連携しようとした片鱗があるけど気にしないでね（詰まってけっこう時間溶かしてしまった・・・）
+HealthKit を介した健康データの取得方法を確認しながら、HealthKit の大まかな世界観を理解するためのもの。<br>
 
 ## このプロジェクトで出来ること
 
-- アプリからHealthKitの認証を行う
-- アプリで取得している健康データは「歩数」と「ワークアウト」の2種類
-    - 健康データの取得管理は「HealthKit.swift」で行っている
-        - 「歩数」は画面に表示
-        - 「ワークアウト」はログで表示
-- 端末とHealthKitの連携ステータスを別のビューで表示している 
+- アプリから HealthKit の認証を行う
+- アプリで取得している健康データは「歩数」と「ワークアウト」の 2 種類
+  - 健康データの取得管理は「HealthKit.swift」で行っている
+    - 「歩数」は画面に表示
+    - 「ワークアウト」はログで表示
+- 端末と HealthKit 連携ステータスを別のビューで表示している
 
 ## メモ
 
 - 公式ドキュメント
-    - https://developer.apple.com/documentation/healthkit
-    - 日本語文献はあまり多くない
-- HealthKitの対応・非対応のハンドル
-    - 端末がHealthKitに対応しているかどうか、HealthKitを許可しているかどうかをうまくハンドルする必要ある
-- HealthKitからのデータをいじる際はクロージャーを介して行うことが多い（UIの更新時は注意）
-- HealthKitの認証画面はアップルが用意してる物を使う。デザイン変更できない
+  - https://developer.apple.com/documentation/healthkit
+  - 現状、日本語文献はあまり多くない
+- HealthKit の対応・非対応のハンドル
+  - 端末が HealthKit に対応しているかどうか、HealthKit を許可しているかどうかをうまくハンドルする必要ある
+- HealthKit からのデータをいじる際はクロージャーを介して行うことが多い（UI の更新時は注意）
+- HealthKit の認証画面はアップルが用意してる物を使う。デザイン変更できない
 
-## HealthKitで取得可能なデータ一覧
+## HealthKit で取得可能なデータ一覧
 
 - https://qiita.com/sato-shin/items/d7a0099750a0b9eddfd1
 
-## スクリーンショット 
+## スクリーンショット
 
-![Main Screen](https://github.com/seiyamaeda/garage/blob/master/screenshots/IMG_1422.jpg "Main Screen")
+| Main Screen                                                                                             | Status Screen                                                                                               | Authorization Screen                                                                                                      |
+| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| ![Main Screen](https://github.com/maecha/HealthKitSample/blob/master/RepoAssets/img1.jpg "Main Screen") | ![Status Screen](https://github.com/maecha/HealthKitSample/blob/master/RepoAssets/img2.jpg "Status Screen") | ![Authorization Screen](https://github.com/maecha/HealthKitSample/blob/master/RepoAssets/img3.png "Authorization Screen") |
 
-![Status Screen](https://github.com/seiyamaeda/garage/blob/master/screenshots/IMG_1423.jpg "Status Screen")
-
-![Authorization Screen](https://github.com/seiyamaeda/garage/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202019-12-19%20at%2015.45.50.png "Authorization Screen")
-
-## HealthKit参考記事
+## HealthKit 参考記事
 
 - https://www.raywenderlich.com/459-healthkit-tutorial-with-swift-getting-started
 - https://qiita.com/sato-shin/items/1fed497d2c2b8042632c
